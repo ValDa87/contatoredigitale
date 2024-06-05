@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Digital-7';
+    src: url('path/to/digital-7.ttf') format('truetype');
+}
+
+body {
+    background: url("il_fullxfull.3382644161_kkbm.avif");
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    height: 100vh; /* Ensure body takes the full viewport height */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Enable flexbox on the body */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.container {
+    
+    display: flex; /* Enable flexbox on the container */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Ensure text is centered */
+    border: 5px black solid;
+    background-image: url('e0b5bd76cb590dcf7d2e37b5302d8641.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Digital-7', monospace; /* Use the digital font */
+    font-size: 80px; /* Adjust size as needed */
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #32cd32; /* Typical digital clock color */
+    background-color: #000; /* Background color to enhance digital look */
+    padding: 10px 20px; /* Add some padding for a digital clock feel */
+    border-radius: 5px; /* Slightly round the corners */
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+#save-el {
+    color: orange;
+    border-top: 50px;
+}
